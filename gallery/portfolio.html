@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <title>포트폴리오</title>
+  <link rel="stylesheet" href="css/portfolio.css">
+
+  <!-- 웹폰트 -->
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+  <!--스크립트-->
+  <script src="script/jquery-3.4.1.min.js"></script>
+  <script src="script/jquery-ui.min.js"></script>
+  <script src="script/modernizr-custom.js"></script>
+  <script src="script/ham.js"></script>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header>
+      <div class="logo">
+        <a href="index.html">STELLALIVESIN</a>
+      </div>
+    </header>
+    <!--메뉴-->
+
+    <a href="#none" class="hamburger-button">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+
+    <div class="overlay">
+      <nav class="menu">
+        <ul>
+          <li><a href="#">Who Am I?</a></li>
+          <li><a href="portfolio.html">Web Design</a></li>
+          <li><a href="#">Coding</a></li>
+          <li><a href="#">Photo</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <section id="portfolio">
+      <!--갤러리-->
+      <h2>webDesigns</h2>
+      <!--상단탭-->
+      <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('web')"> web</button>
+        <button class="btn" onclick="filterSelection('responsive')"> responsive</button>
+        <button class="btn" onclick="filterSelection('mobile')"> mobile</button>
+      </div>
+
+      <div class="modal"></div>
+
+      <!-- Portfolio Gallery Grid -->
+      <div class="row">
+        <div class="column responsive">
+          <div class="lightgallery">
+            <img src="/image/t_01.jpg" class="hover-shadow" alt=""></a>
+            <div class="caption">
+              <p class="tit">KOZ Ent.<br><em>소속사홈페이지</em></p>
+            </div>
+          </div>
+        </div>
+        <div class="column responsive">
+          <div class="lightgallery">
+            <img src="/image/t_02.jpg" class="hover-shadow" alt=""></a>
+            <div class="caption">
+              <p class="tit">VRS<br><em>커스터마이징쇼핑몰</em></p>
+            </div>
+          </div>
+        </div>
+        <div class="column web">
+          <div class="lightgallery">
+            <img src="/image/t_03.jpg" class="hover-shadow" alt=""></a>
+            <div class="caption">
+              <p class="tit">닥터베이직<br><em>병원홈페이지</em></p>
+            </div>
+          </div>
+        </div>
+        <div class="column web">
+          <div class="lightgallery">
+            <img src="/image/t_04.jpg" class="hover-shadow" alt=""></a>
+            <div class="caption">
+              <p class="tit">멀블리스<br><em>쇼핑몰</em></p>
+            </div>
+          </div>
+        </div>
+        <div class="column web">
+          <div class="lightgallery">
+            <img src="/image/t_05.jpg" class="hover-shadow" alt=""></a>
+            <div class="caption">
+              <p class="tit">비온뒤의학커뮤니티<br><em>커뮤니티홈페이지</em></p>
+            </div>
+          </div>
+        </div>
+        <div class="column web">
+          <div class="lightgallery">
+            <img src="/image/t_06.jpg" class="hover-shadow" alt=""></a>
+            <div class="caption">
+              <p class="tit">포튼가먼트<br><em>기업홈페이지</em></p>
+            </div>
+          </div>
+        </div>
+        <div class="column R">
+          <div class="lightgallery">
+            <img src="/image/t_07.jpg" class="hover-shadow" alt=""></a>
+            <div class="caption">
+              <p class="tit">Besign<br><em>기업홈페이지</em></p>
+            </div>
+          </div>
+        </div>
+        <div class="column web">
+          <div class="lightgallery">
+            <img src="/image/t_08.jpg" class="hover-shadow" alt=""></a>
+            <div class="caption">
+              <p class="tit">위즈페이<br><em>관리자페이지</em></p>
+            </div>
+          </div>
+        </div>
+        <div class="column web">
+          <div class="lightgallery">
+            <img src="/image/t_09.jpg" class="hover-shadow" alt=""></a>
+            <div class="caption">
+              <p class="tit">더눈물라이프<br><em>기업홈페이지</em></p>
+            </div>
+          </div>
+        </div>
+        <div class="column web">
+          <div class="lightgallery">
+            <img src="/image/t_10.jpg" class="hover-shadow" alt=""></a>
+            <div class="caption">
+              <p class="tit">메타포렌즈-방탄콜라보<br><em>랜딩페이지</em></p>
+            </div>
+          </div>
+        </div>
+        <div class="column web">
+          <div class="lightgallery">
+            <img src="/image/t_11.jpg" class="hover-shadow" alt=""></a>
+            <div class="caption">
+              <p class="tit">버블트리-오디션<br><em>랜딩페이지</em></p>
+            </div>
+          </div>
+        </div>
+        <div class="column web">
+          <div class="lightgallery">
+            <img src="/image/t_12.jpg" class="hover-shadow" alt=""></a>
+            <div class="caption">
+              <p class="tit">고려대 안암동 캠퍼스타운<br><em>캠퍼스관련소개홈페이지</em></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!--팝업창-->
+      <div class="pop-wrap">
+        <!--1.코즈-->
+        <div class="pop">
+          <div class="pop-detail">
+            <div class="pop-detail-scroll">
+              <i onclick="pop_close();">
+                <span></span>
+                <span></span>
+              </i>
+              <p class="pop-tit">KOZ Ent.</p>
+              <a href="#none" class="pop-url" target="_blank">http://www.kozofficial.com/</a>
+              <table class="pop-table">
+                <colgroup>
+                  <col width="125px">
+                  <col width="*">
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <th>구분</th>
+                    <td>Responsive</td>
+                  </tr>
+                  <tr>
+                    <th>사용색상</th>
+                    <td>그랬던거지</td>
+                  </tr>
+                </tbody>
+              </table>
+              <ul class="pop-cnt">
+                <li>노출 컨텐츠가 적어 독특한 레이아웃과 시각적 효과 위주 디자인</li>
+                <li>각 아티스트별로 페이지를 따로 가지게 되는 구조</li>
+              </ul>
+              <div class="pop-img">
+                <img src="image/p_koz1.jpg" alt="">
+                <img src="image/p_koz2.jpg" alt="">
+                <img src="image/p_koz3.jpg" alt="">
+                <img src="image/p_koz4.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--2.vrs-->
+        <div class="pop">
+          <div class="pop-detail">
+            <div class="pop-detail-scroll">
+              <i onclick="pop_close();">
+                <span></span>
+                <span></span>
+              </i>
+              <p class="pop-tit">VRS</p>
+              <a href="#none" class="pop-url" target="_blank">http://verusshop.co.kr/</a>
+              <table class="pop-table">
+                <colgroup>
+                  <col width="125px">
+                  <col width="*">
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <th>구분</th>
+                    <td>Responsive</td>
+                  </tr>
+                  <tr>
+                    <th>사용색상</th>
+                    <td>아무거나아아</td>
+                  </tr>
+                </tbody>
+              </table>
+              <ul class="pop-cnt">
+                <li>커스텀가능한 환경 디자인 작업</li>
+              </ul>
+              <div class="pop-img">
+                <img src="image/p_vrs1.jpg" alt="">
+                <img src="image/p_vrs2.jpg" alt="">
+                <img src="image/p_vrs3.jpg" alt="">
+                <img src="image/p_vrs4.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--3.닥터베이직-->
+        <div class="pop">
+          <div class="pop-detail">
+            <div class="pop-detail-scroll">
+              <i onclick="pop_close();">
+                <span></span>
+                <span></span>
+              </i>
+              <p class="pop-tit">닥터베이직</p>
+              <a href="#none" class="pop-url" target="_blank">https://www.drbasic.co.kr/</a>
+              <table class="pop-table">
+                <colgroup>
+                  <col width="125px">
+                  <col width="*">
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <th>구분</th>
+                    <td>web</td>
+                  </tr>
+                  <tr>
+                    <th>사용색상</th>
+                    <td>아무거나아아</td>
+                  </tr>
+                </tbody>
+              </table>
+              <ul class="pop-cnt">
+                <li>꺠끗하고 깔끔한 느낌의 디자인</li>
+                <li>맞춤형 피부테스트 페이지</li>
+              </ul>
+              <div class="pop-img">
+                <img src="image/p_dr1.jpg" alt="">
+                <img src="image/p_dr2.jpg" alt="">
+                <img src="image/p_dr3.jpg" alt="">
+                <img src="image/p_dr4.jpg" alt="">
+                <img src="image/p_dr5.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--4.멀블리스-->
+        <div class="pop">
+          <div class="pop-detail">
+            <div class="pop-detail-scroll">
+              <i onclick="pop_close();">
+                <span></span>
+                <span></span>
+              </i>
+              <p class="pop-tit">멀블리스</p>
+              <a href="#none" class="pop-url" target="_blank">https://merbliss.com/</a>
+              <table class="pop-table">
+                <colgroup>
+                  <col width="125px">
+                  <col width="*">
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <th>구분</th>
+                    <td>web</td>
+                  </tr>
+                  <tr>
+                    <th>사용색상</th>
+                    <td>아무거나아아</td>
+                  </tr>
+                </tbody>
+              </table>
+              <ul class="pop-cnt">
+                <li>꺠끗하고 깔끔한 느낌의 디자인</li>
+                <li>맞춤형 피부테스트 페이지</li>
+              </ul>
+              <div class="pop-img">
+                <img src="image/p_mb1.jpg" alt="">
+                <img src="image/p_mb2.jpg" alt="">
+                <img src="image/p_mb3.jpg" alt="">
+                <img src="image/p_mb4.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--5.비온뒤-->
+        <div class="pop">
+          <div class="pop-detail">
+            <div class="pop-detail-scroll">
+              <i onclick="pop_close();">
+                <span></span>
+                <span></span>
+              </i>
+              <p class="pop-tit">의학채널 비온뒤</p>
+              <a href="#none" class="pop-url" target="_blank">https://www.aftertherain.kr/</a>
+              <table class="pop-table">
+                <colgroup>
+                  <col width="125px">
+                  <col width="*">
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <th>구분</th>
+                    <td>web</td>
+                  </tr>
+                  <tr>
+                    <th>사용색상</th>
+                    <td>아무거나아아</td>
+                  </tr>
+                </tbody>
+              </table>
+              <ul class="pop-cnt">
+                <li>꺠끗하고 깔끔한 느낌의 디자인</li>
+                <li>맞춤형 피부테스트 페이지</li>
+              </ul>
+              <div class="pop-img">
+                <img src="image/p_rain1.jpg" alt="">
+                <img src="image/p_rain2.jpg" alt="">
+                <img src="image/p_rain3.jpg" alt="">
+                <img src="image/p_rain4.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--6.포튼가먼트-->
+        <div class="pop">
+          <div class="pop-detail">
+            <div class="pop-detail-scroll">
+              <i onclick="pop_close();">
+                <span></span>
+                <span></span>
+              </i>
+              <p class="pop-tit">foton garment</p>
+              <a href="#none" class="pop-url" target="_blank">http://www.fottongarment.co.kr/</a>
+              <table class="pop-table">
+                <colgroup>
+                  <col width="125px">
+                  <col width="*">
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <th>구분</th>
+                    <td>web</td>
+                  </tr>
+                  <tr>
+                    <th>사용색상</th>
+                    <td>아무거나아아</td>
+                  </tr>
+                </tbody>
+              </table>
+              <ul class="pop-cnt">
+                <li>꺠끗하고 깔끔한 느낌의 디자인</li>
+                <li>맞춤형 피부테스트 페이지</li>
+              </ul>
+              <div class="pop-img">
+                <img src="image/p_fotton1.jpg" alt="">
+                <img src="image/p_fotton2.jpg" alt="">
+                <img src="image/p_fotton3.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--7.비자인-->
+        <div class="pop">
+          <div class="pop-detail">
+            <div class="pop-detail-scroll">
+              <i onclick="pop_close();">
+                <span></span>
+                <span></span>
+              </i>
+              <p class="pop-tit">비자인</p>
+              <a href="#none" class="pop-url" target="_blank">http://www.besign.co.kr/</a>
+              <table class="pop-table">
+                <colgroup>
+                  <col width="125px">
+                  <col width="*">
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <th>구분</th>
+                    <td>web</td>
+                  </tr>
+                  <tr>
+                    <th>사용색상</th>
+                    <td>아무거나아아</td>
+                  </tr>
+                </tbody>
+              </table>
+              <ul class="pop-cnt">
+                <li>꺠끗하고 깔끔한 느낌의 디자인</li>
+                <li>맞춤형 피부테스트 페이지</li>
+              </ul>
+              <div class="pop-img">
+                <img src="image/p_besign.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--8.위즈페이-->
+        <div class="pop">
+          <div class="pop-detail">
+            <div class="pop-detail-scroll">
+              <i onclick="pop_close();">
+                <span></span>
+                <span></span>
+              </i>
+              <p class="pop-tit">위즈페이</p>
+              <a href="#none" class="pop-url" target="_blank"></a>
+              <table class="pop-table">
+                <colgroup>
+                  <col width="125px">
+                  <col width="*">
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <th>구분</th>
+                    <td>web</td>
+                  </tr>
+                  <tr>
+                    <th>사용색상</th>
+                    <td>아무거나아아</td>
+                  </tr>
+                </tbody>
+              </table>
+              <ul class="pop-cnt">
+                <li>꺠끗하고 깔끔한 느낌의 디자인</li>
+                <li>맞춤형 피부테스트 페이지</li>
+              </ul>
+              <div class="pop-img">
+                <img src="image/p_wiz1.jpg" alt="">
+                <img src="image/p_wiz2.jpg" alt="">
+                <img src="image/p_wiz3.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--9.더눈물라이프-->
+        <div class="pop">
+          <div class="pop-detail">
+            <div class="pop-detail-scroll">
+              <i onclick="pop_close();">
+                <span></span>
+                <span></span>
+              </i>
+              <p class="pop-tit">더눈물라이프</p>
+              <a href="#none" class="pop-url" target="_blank"></a>
+              <table class="pop-table">
+                <colgroup>
+                  <col width="125px">
+                  <col width="*">
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <th>구분</th>
+                    <td>web</td>
+                  </tr>
+                  <tr>
+                    <th>사용색상</th>
+                    <td>아무거나아아</td>
+                  </tr>
+                </tbody>
+              </table>
+              <ul class="pop-cnt">
+                <li>꺠끗하고 깔끔한 느낌의 디자인</li>
+                <li>맞춤형 피부테스트 페이지</li>
+              </ul>
+              <div class="pop-img">
+                <img src="image/p_tear1.jpg" alt="">
+                <img src="image/p_tear2.jpg" alt="">
+                <img src="image/p_tear3.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--10.메타포렌즈-->
+        <div class="pop">
+          <div class="pop-detail">
+            <div class="pop-detail-scroll">
+              <i onclick="pop_close();">
+                <span></span>
+                <span></span>
+              </i>
+              <p class="pop-tit">메타포렌즈</p>
+              <a href="#none" class="pop-url" target="_blank"></a>
+              <table class="pop-table">
+                <colgroup>
+                  <col width="125px">
+                  <col width="*">
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <th>구분</th>
+                    <td>web</td>
+                  </tr>
+                  <tr>
+                    <th>사용색상</th>
+                    <td>아무거나아아</td>
+                  </tr>
+                </tbody>
+              </table>
+              <ul class="pop-cnt">
+                <li>꺠끗하고 깔끔한 느낌의 디자인</li>
+                <li>맞춤형 피부테스트 페이지</li>
+              </ul>
+              <div class="pop-img">
+                <img src="image/p_lens1.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--11.버블트리-->
+        <div class="pop">
+          <div class="pop-detail">
+            <div class="pop-detail-scroll">
+              <i onclick="pop_close();">
+                <span></span>
+                <span></span>
+              </i>
+              <p class="pop-tit">버블트리-버츄얼 오디션</p>
+              <a href="#none" class="pop-url" target="_blank"></a>
+              <table class="pop-table">
+                <colgroup>
+                  <col width="125px">
+                  <col width="*">
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <th>구분</th>
+                    <td>web</td>
+                  </tr>
+                  <tr>
+                    <th>사용색상</th>
+                    <td>아무거나아아</td>
+                  </tr>
+                </tbody>
+              </table>
+              <ul class="pop-cnt">
+                <li>버추얼 O2캐릭터 목소리 오디션</li>
+                <li>캐릭터를 활용하여 애니매이션적이면서도 밝은 느낌의 디자인</li>
+              </ul>
+              <div class="pop-img">
+                <img src="image/p_bubble.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--12.고려대 안암동 캠퍼스 타운-->
+        <div class="pop">
+          <div class="pop-detail">
+            <div class="pop-detail-scroll">
+              <i onclick="pop_close();">
+                <span></span>
+                <span></span>
+              </i>
+              <p class="pop-tit">고려대 안암동 캠퍼스타운</p>
+              <a href="#none" class="pop-url" target="_blank">http://www.campustown.or.kr/</a>
+              <table class="pop-table">
+                <colgroup>
+                  <col width="125px">
+                  <col width="*">
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <th>구분</th>
+                    <td>web</td>
+                  </tr>
+                  <tr>
+                    <th>사용색상</th>
+                    <td>아무거나아아</td>
+                  </tr>
+                </tbody>
+              </table>
+              <ul class="pop-cnt">
+                <li>버추얼 O2캐릭터 목소리 오디션</li>
+                <li>캐릭터를 활용하여 애니매이션적이면서도 밝은 느낌의 디자인</li>
+              </ul>
+              <div class="pop-img">
+                <img src="image/p_campus.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- END GRID -->
+      </div>
+    </section>
+
+    <!--footer-->
+    <footer>
+      <p>Copyright &copy; 2020 stellalivesin.</p>
+    </footer>
+
+  </div>
+</body>
+
+<!--스크립트-->
+<!--filtering-->
+<script>
+  filterSelection("all")
+
+  function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("column");
+    if (c == "all") c = "";
+    for (i = 0; i < x.length; i++) {
+      w3RemoveClass(x[i], "show");
+      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    }
+  }
+
+  function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {
+        element.className += " " + arr2[i];
+      }
+    }
+  }
+
+  function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+
+  // Add active class to the current button (highlight it)
+  var btnContainer = document.getElementById("myBtnContainer");
+  var btns = btnContainer.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function() {
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
+
+</script>
+<!--팝업-->
+<script>
+  // portfolio popup
+  var state = 0;
+
+  function pop(idx) {
+    state = 1;
+    $('.modal').fadeIn();
+    $('.pop').eq(idx).fadeIn();
+    //		$('html, body').css({'overflow' : 'hidden'}); //스크롤 없애기
+  }
+
+  function pop_close() {
+    state = 0;
+    $('.modal').fadeOut();
+    $('.pop').fadeOut();
+    //		$('html, body').css({'overflow' : 'visible'});
+  }
+
+  $('.row .column').click(function() {
+    pop($(this).index());
+  });
+
+
+  $('i').click(function() {
+    pop_close($(this).index());
+  });
+
+</script>
+
+</html>
